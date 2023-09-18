@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+      h2{color:black;
+      padding:80px;
+      text-align:center;
+      }
+      body{
+      font-family:verdana;
+      }
+      .login1{
+      text-align:center;
+      color:black;
+      padding:50px;
+      }
+      label{
+      padding:20px;
+      }
+      .button{padding:15px;
+      }
+    </style>
+</head>
+    <body style="background-image:url({% static 'images/tr2.jpg' %})">
+        <form action="login" method="post">
+         {% csrf_token %}
+            <h2>LOGIN</h2>
+            <div class="login1">
+                <label><b>Username</b> &nbsp;</label>
+                <input type="text" name="username" placeholder="Enter your Username"><br><br>
+                <label><b>Password</b></label>
+                <input type="password" name="password" placeholder="Enter the password"><br><br>
+                    <div class="button">
+                        <input type="submit" value="Login">
+                    </div>
+            </div>
+        </form>
+    </body>
+</html>

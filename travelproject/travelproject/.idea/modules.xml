@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../ecommerce/ecommerceproject/.idea/ecommerceproject.iml" filepath="$PROJECT_DIR$/../../../ecommerce/ecommerceproject/.idea/ecommerceproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../inmakes_product_folder/movie/.idea/movie.iml" filepath="$PROJECT_DIR$/../../inmakes_product_folder/movie/.idea/movie.iml" />
+      <module fileurl="file://D:/newproject/demoproject/taskproject/.idea/taskproject.iml" filepath="D:/newproject/demoproject/taskproject/.idea/taskproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../todoproject/.idea/todoproject.iml" filepath="$PROJECT_DIR$/../../todoproject/.idea/todoproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/travelproject.iml" filepath="$PROJECT_DIR$/.idea/travelproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../websitescraper/websitescraper_project/.idea/websitescraper_project.iml" filepath="$PROJECT_DIR$/../../../websitescraper/websitescraper_project/.idea/websitescraper_project.iml" />
+    </modules>
+  </component>
+</project>
